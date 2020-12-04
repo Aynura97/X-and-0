@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background-color: cadetblue;
+
+}
+main {
+    margin: auto;
+}
+table, td {
+    border: 2px solid red;
+    border-collapse: collapse;
+    background-color: black
+   
+}
+td {
+    width: 100px;
+    height: 100px;
+    font-size: 35px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    
+} 
+img {
+    width: 60px;
+    height: 60px;
+}
+p {
+    margin: 50px 0 0 50px;
+ }
